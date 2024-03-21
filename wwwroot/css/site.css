@@ -69,6 +69,19 @@ footer {
         border: 10px solid transparent; 
         border-image: url('../images/beadpat.jpg') 30 repeat; 
     }
+.button {
+    color: white;
+    background-color: #c2452d;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Add smooth transition */
+}
+
+    .button:hover {
+        background-color: darkred; 
+    }
   /*Media Queries*/
 @media only screen and (max-width: 768px) {
     .navbar-collapse {
@@ -85,10 +98,14 @@ footer {
         width: 50px; 
         height: auto;
     }
-     .logo {
-     width: 70px; 
-     height: auto; 
- }
+    .logo {
+        width: 70px; 
+        height: auto; 
+    }
+     img {
+        border: 10px solid transparent; 
+        border-image: url('../images/beadpat.jpg') 30 repeat; 
+    }
 }
 .navbar-nav {
     margin: 0;
@@ -144,4 +161,5 @@ footer {
     background-color: brown;
     border-color: black;
 }
+
 
