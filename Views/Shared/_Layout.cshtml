@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -16,7 +16,7 @@
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light  border-bottom box-shadow mb-3">
 
             <div class="container-fluid">
-                <img src="~/images/khumalo.png"class="logo" width="80" height="80" />
+                <img src="~/images/khumalo.png" class="logo" width="80" height="80" />
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -50,6 +50,7 @@
       <button class="btn btn-outline-success" type="submit">
         <i class="fa fa-search"></i>
       </button>
+      <a href="order.cshtml"><button class="button">Order Now</button></a>
     </div>
   </div>
 </form>
@@ -70,7 +71,7 @@
         </main>
     </div>
     <br />
-    <footer class="border-top footer text-muted" style="min-width:100%;>
+    <footer class="border-top footer text-muted" style="min-width:100%">
         <div class="container">
             &copy; 2024 - KhumaloCraftEmporium-Sources:Google Images/iStock images- <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
 
@@ -82,3 +83,4 @@
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
+
